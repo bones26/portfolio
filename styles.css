@@ -2,3 +2,26 @@ body{
 text-align: center
 
 }
+
+h1 {
+    font-family: 'Leckerli One', cursive;
+}
+
+/* 
+h2, .h2 {
+    font-family:'Amatic SC', cursive;
+    font-size: "12"
+    :} */
+
+
+
+h5, .h5 {
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  /* .card-header {
+    font-family: 
+  } */
+  .card-body {
+      font-family: 'Josefin Slab', serif;
+  }

@@ -2,54 +2,56 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- FONT STYLES -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Slab|Leckerli+One" rel="stylesheet">
+    <!-- META TAGS -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-
     <title>Jen Hilton</title>
-
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    
-
-
     <!-- Custom styles for this template -->
     <link href="Jen Hilton" rel="stylesheet">
   </head>
 
-  <body>
-
-    <header>
-      <img src="assets/portfolio_header.png" alt="Jen Hilton - learning all about the things and stuff">
-      
+    <body>
+    <!-- SITE BANNER IMAGE -->
+    <header>        
+      <img src="assets/images/web-banner.png" alt "Site Banner">
     </header>
 
-    <!-- Begin page content -->
+    <!-- BEGIN PAGE CONTENT -->
     <main role="main" class="container">
-      <!-- <h1 class="mt-5">Jen Hilton</h1> -->
-      <p class="lead">...</p>
-     
+    
+      <!-- ACCORDION -->
+      <div id="accordion">     
+        <div class="card">
 
-      <div id="accordion">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h5 class="mb-0">
-                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <!-- ABOUT - Card-Header -->
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   About
                 </button>
-              </h5>
-            </div>
-        
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-              <div class="card-body">
-                Born in the wilderness. Raised by Sloths. A fan of coffee. Less so of pants.
-              </div>
-            </div>
+            </h5>
+        </div> 
+
+        <!-- ABOUT - Card-Body -->
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+              Born in the wilderness. Raised by Sloths. A fan of coffee. Less so of pants.
           </div>
-          <div class="card">
+        </div>
+      </div>
+         
+        
+         <div class="card">
+            
+            <!-- WORK HISTORY - Card-Header -->
             <div class="card-header" id="headingTwo">
               <h5 class="mb-0">
                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -57,48 +59,103 @@
                 </button>
               </h5>
             </div>
+            
+            <!-- WORK HISTORY - Card-Body -->
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
               <div class="card-body">
                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
               </div>
             </div>
           </div>
+
           <div class="card">
-            <div class="card-header" id="headingThree">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Skills
-                </button>
-              </h5>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+
+            <!-- SKILLS (copied from WORK HISTORY)- Card-Header -->
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    (SKILLS) Work History
+                  </button>
+                </h5>
+              </div>
+              
+              <!-- SKILLS (copied from WORK HISTORY) - Card-Body -->
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  <div class="container">
+                    <span class="text-muted">
+                       <div class="container">
+                         <div class="row">
+                           <div class="col-sm">
+                              <img src="assets/icons/skills/ruby_64.png" alt = "Ruby Logo"> 
+                           </div>
+                          <div class="col-sm">
+                              <img height="64px" width="64px" src="assets/icons/skills/rails.png" alt = "Rails Logo"> 
+                          </div>
+                        <div class="col-sm">
+                              <img src="assets/icons/skills/html5_64.png" alt = "HTML5 Logo"> 
+                        </div>
+                        <div class="col-sm">
+                              <img src="assets/icons/skills/css3_64.png" alt = "CSS3 Logo"> 
+                        </div>
+                    <div class="col-sm">
+                              <img height="64px" width="64px" src="assets/icons/skills/js.png" alt = "Javascript Logo"> 
+                    </div>
+                  </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingFour">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Portfolio
-              </button>
-            </h5>
-          </div>
-          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    </main>
+<!-- PORTFLIO - Card-Header -->
+<!-- <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour-Portfolio" aria-expanded="false" aria-controls="collapseFour-Portfolio">
+          Portfolio (skills)
+        </button>
+      </h5>
+    </div>
+    <!-- PORTFOLIO - Card-Body -->
+    <!-- <div id="collapseFour-Portfolio" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+        need to put sub card things in here
+    </div>
+  </div> --> -->
+</main>
 
+
+
+<!-- FOOTER -->
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">Github icon, LinkedIn icon</span>
+        <span class="text-muted">
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    
+                    <a href="https://github.com/bones26"> 
+                      <img src="assets/icons/social/github3_64.png" alt = "Github Logo links to Jen's Github Repo">
+                    </a>
+                  </div>
+                  <div class="col-sm">
+                    <a href="https://www.linkedin.com/in/jen-hilton-86ffs/">
+                      <img src="assets/icons/social/linkedin_64.png" alt="LinkedIn Logo links to Jen's Linked In Profile">
+                      </a>
+                  </div>
+                  <div class="col-sm">
+                      <a href="https://medium.com/@jenhilton">
+                        <img src="assets/icons/social/medium_64.png" alt="Medium Logo links to Jen's blog on Medium.com">
+                        </a>
+                    </div>
+                
+                  </div>
+                </div>
+              </div>
+            </p>
+            
+            
+         
+            
+       
+        </span>
       </div>
     </footer>
 
