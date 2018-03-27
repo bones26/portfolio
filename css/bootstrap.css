@@ -4478,7 +4478,7 @@ tbody.collapse.show {
 }
 
 .card-link:hover {
-  text-decoration: none;
+  text-decoration: magenta;
 }
 
 .card-link + .card-link {
